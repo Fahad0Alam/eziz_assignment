@@ -1,0 +1,39 @@
+.App {
+  display: flex;
+  height: 100vh;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+  background-color: #FADBD8; /* Pale Pink */
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #D2A679; /* Caramel */
+  color: #FFFFFF; /* Bright White */
+  padding: 20px;
+}
+
+.sidebar h2 {
+  color: #FFFFFF;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin: 20px 0;
+}
+
+.sidebar a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.dashboard, .leads, .analytics, .reports {
+  color: #333333; /* Text color */
+}

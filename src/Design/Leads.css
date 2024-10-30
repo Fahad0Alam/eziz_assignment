@@ -1,0 +1,36 @@
+.leads {
+    padding: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 15px;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f4f4f4;
+  }
+  
+  .leads tbody tr:nth-child(odd) {
+    background-color: #f9f9f9; /* Light gray for odd rows */
+  }
+  
+  .leads tbody tr:nth-child(even) {
+    background-color: #ffffff; /* White for even rows */
+  }
+  
+  .leads .status-interested {
+    background-color: #fffacd !important; /* Light yellow for 'Interested' */
+  }
+  
+  .leads .status-converted {
+    background-color: #98fb98 !important; /* Pale green for 'Converted' */
+  }
+  
